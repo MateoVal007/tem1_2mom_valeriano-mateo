@@ -1,0 +1,14 @@
+Pregunta 1 | Verificación de la carga en Apache Hive
+Fecha y hora local: 2026-11-11 09:26:10 -04:00
+Comando: hive -S --hiveconf hive.cli.print.header=true -f /tmp/03_verificar_carga.hql
+
+registros_csv
+9994
+registros_orc	fechas_pedido_convertidas	fechas_envio_convertidas	ventas_convertidas
+9994	9994	9994	9994
+row_id	order_date	ship_date	product_name	sales
+1	2016-11-08	2016-11-11	Bush Somerset Collection Bookcase	261.9600
+2	2016-11-08	2016-11-11	Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back	731.9400
+3	2016-06-12	2016-06-16	Self-Adhesive Address Labels for Typewriters by Universal	14.6200
+4	2015-10-11	2015-10-18	Bretford CR4500 Series Slim Rectangular Table	957.5775
+5	2015-10-11	2015-10-18	Eldon Fold 'N Roll Cart System	22.3680
