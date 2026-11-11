@@ -1,0 +1,37 @@
+Fecha y hora local: 2026-11-11 10:09:27 -04:00
+Fecha y hora local: 11/11/2026 10:09:27.13
+
+
+D:\discoD\TecEmerI\Examen_2doMomento>docker exec bigdata-docker-compose-master-1 hive -S --hiveconf hive.cli.print.header=true -f /tmp/07_ranking_productos.hql 
+margenes.category	margenes.product_id	margenes.nombre	margenes.unidades	margenes.ventas	margenes.ganancia	margenes.margen_pct	puesto_categoria	orden_categoria	puesto_volumen	puesto_menor_margen	ganancia_acum_categoria
+category	puesto	product_id	nombre	ganancia	margen_pct	ganancia_acumulada
+Furniture	1	FUR-CH-10000454	Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back	1927.44	18.12	1927.44
+Furniture	2	FUR-CH-10004063	Global Deluxe High-Back Manager's Chair	1558.59	17.99	3486.03
+Furniture	3	FUR-CH-10002320	Hon Pagoda Stacking Chairs	1540.70	23.76	5026.74
+Furniture	4	FUR-CH-10004086	Hon 4070 Series Pagoda Armless Upholstered Stacking Chairs	1388.63	16.47	6415.37
+Furniture	5	FUR-CH-10001854	Office Star - Professional Matrix Back Chair with 2-to-1 Synchro Tilt and Mesh Fabric Seat	1305.65	14.88	7721.02
+Office Supplies	1	OFF-BI-10003527	Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind	7753.04	28.24	7753.04
+Office Supplies	2	OFF-BI-10001120	Ibico EPK-21 Electric Binding System	3345.28	21.07	11098.32
+Office Supplies	3	OFF-AP-10002945	Honeywell Enviracaire Portable HEPA Air Cleaner for 17' x 22' Room	3247.02	28.72	14345.34
+Office Supplies	4	OFF-BI-10003925	Fellowes PB300 Plastic Comb Binding Machine	2518.06	31.20	16863.40
+Office Supplies	5	OFF-BI-10004600	Ibico Ibimaster 300 Manual Binding System	2318.34	29.03	19181.73
+Technology	1	TEC-CO-10004722	Canon imageCLASS 2200 Advanced Copier	25199.93	40.91	25199.93
+Technology	2	TEC-CO-10001449	Hewlett Packard LaserJet 3310 Copier	6983.88	37.07	32183.81
+Technology	3	TEC-CO-10003763	Canon PC1060 Personal Laser Copier	4570.93	39.34	36754.75
+Technology	4	TEC-AC-10002049	Logitech G19 Programmable Gaming Keyboard	4425.34	32.17	41180.09
+Technology	5	TEC-MA-10001127	HP Designjet T520 Inkjet Large Format Printer - 24" Color	4094.98	22.29	45275.07
+puesto	product_id	nombre	unidades	ventas	margen_pct
+1	TEC-AC-10003832	Imation 16GB Mini TravelDrive USB 2.0 Flash Drive	75	11203.76	17.74
+2	OFF-PA-10001970	Xerox 1881	70	2167.35	46.44
+3	OFF-BI-10001524	GBC Premium Transparent Covers with Diagonal Lined Pattern	67	780.46	6.34
+4	FUR-CH-10002647	Situations Contoured Folding Chairs, 4/Set	64	3641.27	6.43
+4	OFF-BI-10002026	Avery Arch Ring Binders	64	2068.82	16.90
+puesto	product_id	nombre	ganancia	margen_pct
+1	OFF-AP-10002203	Eureka Disposable Bags for Sanitaire Vibra Groomer I Upright Vac	-4.47	-275.00
+2	FUR-BO-10001567	Bush Westfield Collection Bookcases, Dark Cherry Finish, Fully Assembled	-190.85	-210.00
+3	OFF-AP-10000390	Euro Pro Shark Stick Mini Vacuum	-325.63	-190.71
+4	TEC-MA-10003337	Okidata B401 Printer	-251.99	-140.00
+5	TEC-MA-10001695	Zebra GK420t Direct Thermal/Thermal Transfer Printer	-938.28	-133.33
+
+Consulta completada. Puedes tomar la captura antes de cerrar CMD.
+Presione una tecla para continuar . . . 

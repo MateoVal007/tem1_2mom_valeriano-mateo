@@ -1,0 +1,18 @@
+Fecha y hora local: 2026-11-11 10:14:58 -04:00
+Comando: docker exec bigdata-docker-compose-master-1 hive -S --hiveconf hive.cli.print.header=true -f /tmp/08_impacto_descuentos.hql
+
+category	sub_category	sales	profit	discount	rango
+nivel	registros	ventas	ganancia	margen_pct	registros_con_perdida	no_rentables_pct	descuento_promedio_pct
+Sin descuento	4798	1087908.47	320987.60	29.51	0	0.63	0.00
+Bajo	3803	846522.24	100785.47	11.91	523	14.33	19.68
+Medio	537	298541.41	-58817.00	-19.70	492	94.04	36.70
+Alto	856	64228.74	-76559.05	-119.20	856	100.00	71.89
+category	sub_category	registros_alto_descuento	registros_con_perdida	perdida_acumulada	ganancia_neta
+Office Supplies	NULL	680	680	-47140.14	-47140.14
+Office Supplies	Binders	613	613	-38510.50	-38510.50
+Technology	NULL	23	23	-19579.32	-19579.32
+Technology	Machines	23	23	-19579.32	-19579.32
+Furniture	NULL	153	153	-9839.59	-9839.59
+Office Supplies	Appliances	67	67	-8629.64	-8629.64
+Furniture	Furnishings	138	138	-5944.66	-5944.66
+Furniture	Bookcases	15	15	-3894.94	-3894.94

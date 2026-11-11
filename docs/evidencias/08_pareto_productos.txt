@@ -1,0 +1,20 @@
+Fecha y hora local: 2026-11-11 10:16:10 -04:00
+Comando: docker exec bigdata-docker-compose-master-1 hive -S --hiveconf hive.cli.print.header=true -f /tmp/10_pareto_productos.hql
+
+acumulados.product_id	acumulados.nombre	acumulados.metrica	acumulados.importe	acumulados.puesto	acumulados.total	acumulados.acumulado	corte_80
+metrica	productos_totales	productos_para_80	productos_pct	aporte_pct_en_corte	total
+Ganancia	1862	164	8.81	80.03	286397.02
+Ventas	1862	414	22.23	80.04	2297200.86
+metrica	puesto	product_id	nombre	importe	aporte_pct	aporte_acumulado_pct
+Ganancia	1	TEC-CO-10004722	Canon imageCLASS 2200 Advanced Copier	25199.93	8.80	8.80
+Ganancia	2	OFF-BI-10003527	Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind	7753.04	2.71	11.51
+Ganancia	3	TEC-CO-10001449	Hewlett Packard LaserJet 3310 Copier	6983.88	2.44	13.94
+Ganancia	4	TEC-CO-10003763	Canon PC1060 Personal Laser Copier	4570.93	1.60	15.54
+Ganancia	5	TEC-AC-10002049	Logitech G19 Programmable Gaming Keyboard	4425.34	1.55	17.09
+Ganancia	164	TEC-PH-10001363	Apple iPhone 5S	512.99	0.18	80.03
+Ventas	1	TEC-CO-10004722	Canon imageCLASS 2200 Advanced Copier	61599.82	2.68	2.68
+Ventas	2	OFF-BI-10003527	Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind	27453.38	1.20	3.88
+Ventas	3	TEC-MA-10002412	Cisco TelePresence System EX90 Videoconferencing Unit	22638.48	0.99	4.86
+Ventas	4	FUR-CH-10002024	HON 5400 Series Task Chairs for Big and Tall	21870.58	0.95	5.81
+Ventas	5	OFF-BI-10001359	GBC DocuBind TL300 Electric Binding System	19823.48	0.86	6.68
+Ventas	414	FUR-BO-10003893	Sauder Camden County Collection Library	1368.26	0.06	80.04
