@@ -1,0 +1,18 @@
+Fecha y hora local: 2026-11-11 09:59:10 -04:00
+Comando: docker exec bigdata-docker-compose-master-1 hive -S --hiveconf hive.cli.print.header=true -f /tmp/06_segmentacion_rfm.hql
+
+puntuaciones.customer_id	puntuaciones.ultima_compra	puntuaciones.frecuencia	puntuaciones.monto	puntuaciones.fecha_referencia	puntuaciones.recencia	puntuaciones.puntaje_r	puntuaciones.puntaje_f	puntuaciones.puntaje_m	segmento
+fecha_referencia	segmento	clientes	dias_promedio	ordenes_promedio	ventas
+2017-12-30	Alto valor	104	24.26	9.3	553088.70
+2017-12-30	En riesgo	146	217.62	7.49	495167.03
+2017-12-30	Otros clientes	318	223.85	3.89	592643.49
+2017-12-30	Recurrente	225	48.6	7.6	656301.64
+segmento	customer_id	ultima_compra	recencia	frecuencia	monto	puntaje_r	puntaje_f	puntaje_m
+Alto valor	AB-10105	2017-11-19	41	10	14473.57	4	5	5
+Alto valor	KL-16645	2017-11-13	47	12	14175.23	4	5	5
+En riesgo	SC-20095	2017-01-15	349	9	14142.33	1	5	5
+En riesgo	CJ-12010	2017-06-24	189	8	11164.97	2	4	5
+Otros clientes	SM-20320	2017-10-12	79	5	25043.05	3	2	5
+Otros clientes	TC-20980	2016-11-26	399	5	19052.22	1	2	5
+Recurrente	RB-19360	2017-09-25	96	6	15117.34	3	3	5
+Recurrente	HL-15040	2017-11-17	43	6	12873.30	4	3	5

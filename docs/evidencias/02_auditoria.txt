@@ -1,0 +1,14 @@
+Fecha y hora local: 2026-11-11 09:48:10 -04:00
+Comando: docker exec bigdata-docker-compose-master-1 hive -S --hiveconf hive.cli.print.header=true -f /tmp/04_auditoria_calidad.hql
+
+indicador	resultado
+Registros	9994
+Filas duplicadas por Row ID	0
+Ordenes unicas	5009
+Clientes unicos	793
+Campos con NULL	Ninguno
+Fechas faltantes o invalidas	0
+Ventas iguales o inferiores a cero	0
+Descuentos fuera de [0, 1]	0
+Envios anteriores al pedido	0
+Filas con problemas de fecha	0
